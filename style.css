@@ -134,13 +134,14 @@ body {
 
 /* Blogs section */
 .blogs {
-    width: 1240px;
-    margin-left: 90px;
+    width: 100%;
+    max-width: 1240px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 20px;
     padding: 20px;
     background-color: black;
+    margin: 0 auto; 
 }
 
 .blog-card {
